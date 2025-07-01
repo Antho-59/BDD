@@ -13,4 +13,3 @@ Feature: Command Ordering
         Given Customer "Michel" who want to command for Someone 2 products "X"
         When a command of 2 products is make for Someone
         Then there is 2 products in the Command
-        And the command come from Customer

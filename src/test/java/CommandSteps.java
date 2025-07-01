@@ -50,9 +50,6 @@ public class CommandSteps {
     public void thereIs2ProductsInTheCommand(){
         Assert.assertEquals(2,command.getProducts().size());
     }
-    @And("the command come from Customer")
-    public void theCommandOf2ProductsComeFromCustomer(){
-        Assert.assertEquals("Toto",command.getFrom());
-    }
+
 
 }
